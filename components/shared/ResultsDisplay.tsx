@@ -12,7 +12,7 @@ import thriving from '@/public/assets/thriving.svg'
 import struggling from '@/public/assets/struggling.svg'
 
 interface Suggestion {
-  image: any
+  image: string
   range: [number, number]
   title: string
   description: string
